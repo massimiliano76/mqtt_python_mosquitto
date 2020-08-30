@@ -4,7 +4,7 @@ import time
 
 mqttBroker ="mqtt.eclipse.org" 
 
-client = mqtt.Client("Temperature_Outside")
+client = mqtt.Client("Temperature_Inside")
 client.connect(mqttBroker) 
 
 while True:
